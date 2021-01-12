@@ -16,7 +16,7 @@ These are the basic named colours you can use:
 
 ## Advanced Colours
 ### Hue examples with 15 degree intervals:
-Hue Angle | Colour | Corresponding H
+Hue Angle | Colour | Corresponding h
 ----------|--------|----------------
 0° | red | 0.000f or 1.000f
 15°	|	orange red | 0.042f
@@ -77,7 +77,7 @@ this.mTruckMaterial.color = Color.HSVToRGB(0.083f, s, 0.8f);
 This was supposed to be a gradient but it kinda looks like police sirens so now it's trans flag sirens 😎.
 ```Csharp
 // in Update()
-Color[] colors = new Color[]	{
+Color[] colors = new Color[] {
   Color.HSVToRGB(0.542f, 0.66f, 0.98f),
   Color.HSVToRGB(0.958f, 0.31f, 0.96f),
   Color.white,
