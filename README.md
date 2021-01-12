@@ -63,7 +63,7 @@ this.mTruckMaterial.color = Color.HSVToRGB(h, 0.5f, 0.8f);
 ```Csharp
 // in Update()
 if (Mathf.Repeat(Time.time, 1f) + Time.deltaTime >= 1f) {
-	this.mTruckMaterial.color = Color.HSVToRGB(UnityEngine.Random.Range(0f, 1f), 0.5f, 0.8f);
+  this.mTruckMaterial.color = Color.HSVToRGB(UnityEngine.Random.Range(0f, 1f), 0.5f, 0.8f);
 }
 ```
 #### Orange Colour Pulse
