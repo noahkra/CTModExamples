@@ -5,7 +5,6 @@ Examples for giving your clustertruck trucks custom colours!
 These are the basic named colours you can use:
 - black
 - blue
-- clear
 - cyan
 - green
 - grey
